@@ -3,3 +3,4 @@ TSB_UAD.egg-info/
 dist/
 venv/
 oryx-build-commands.txt
+data/
