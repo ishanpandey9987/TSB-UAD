@@ -4,3 +4,10 @@ dist/
 venv/
 oryx-build-commands.txt
 data/
+
+TSB_UAD/__pycache__
+TSB_UAD/models/__pycache__
+TSB_UAD/utils/__pycache__
+TSB_UAD/vus/__pycache__
+TSB_UAD/vus/utils/__pycache__
+TSB_UAD/vus/utils/__pycache__/metrics.cpython-38.pyc
