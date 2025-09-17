@@ -1,0 +1,16 @@
+import pandas as pd
+from sdv.tabular import CTGAN
+
+# Load multiple datasets into pandas DataFrames
+df1 = pd.read_csv('path_to_dataset1.csv')
+df2 = pd.read_csv('path_to_dataset2.csv')
+
+# Combine the DataFrames into a single DataFrame
+combined_df = pd.concat([df1, df2], ignore_index=True)
+
+# Pass the combined DataFrame to the SDV synthesizer for training
+model = CTGAN()
+model.fit(combined_df)
+
+# Save the output in the repository
+model.save('path_to_save_model.pkl')
